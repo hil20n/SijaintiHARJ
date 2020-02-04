@@ -33,3 +33,4 @@ function naytaSijainti()  //luodaan functio naytaSijainti leveys- ja pituusarvot
     window.location.href = "https://maps.google.com/?q="+latitude+","+longitude;*/ //googlemaps sivulta etsii sijaintisi
 }
 window.addEventListener("load", starttaa); //kuuntelee, koska ladataan starttaa functio
+console.log("HALOO");
